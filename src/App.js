@@ -1,10 +1,11 @@
 import Header from './Components/Header/Header';
-import "./Grid.css";
+// import "./Grid.css";
 import SideBar from './Components/SideBar/SideBar';
+import Flex from './Components/newFlex';
 function App() {
   return (
     <>
-      <div className="container">
+      {/* <div className="container">
         <Header/>
         <div id="cards">Card</div>
         <div id="section-1">section-1</div>
@@ -20,7 +21,8 @@ function App() {
         <div id="section-11">section-11</div>
         <div id="section-12">section-12</div>
         <footer>footer</footer>
-      </div>
+      </div> */}
+      <Flex/>
     </>
   );
 }
